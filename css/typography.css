@@ -1,0 +1,264 @@
+* {	
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+html,
+body {
+  background: #222;
+}
+ol, ul {
+  list-style: none;
+}
+
+body::before {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 15px rgba(0,0,0,0.75);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+  content: "";
+  height: 15px;
+  left: 0;
+  position: fixed;
+  top: -15px;
+  width: 100%;
+  z-index: 100;
+}
+
+body {
+  font: 100%/1.4 Verdana, Cursive;
+  /* color: #111; */
+  /* background-color: #fff; */
+}
+.select-menus,
+.subfooter,
+.footer,
+.ui-body-a, 
+.ui-body-a input, 
+.ui-body-a select, 
+.ui-body-a textarea, 
+.ui-body-a button { 
+  font-family: "AvenirNext-Regular", Corbel, "Segoe Ui", "Lucida Grande", "Trebuchet Ms", Geneva, "Droid Sans", "DejaVu Sans", Verdana, sans-serif;  
+  text-decoration: none;
+} 
+.header, 
+.ui-header .ui-title,
+.heading,
+.subheading {  
+  font-family: "AvenirNextCondensed-DemiBold", "Futura-CondensedMedium","Segoe Ui Semibold", Corbel, "Lucida Grande","Trebuchet Ms", "Droid Sans", "DejaVu Sans", sans-serif;  
+  font-weight: normal;
+} 
+.header,
+.footer { 
+  background-color: #444;
+  color: #fff;
+  border-bottom: 1px solid #111;
+} 
+.select-menus,
+.subfooter {
+  background-color: #333;
+  color: #fff;
+}
+.select-menus {
+  min-height: 4em;
+}
+
+/* Why still inherit the .ui-body-a class in the pop-up select-menu? */
+.select-menus a,
+.subfooter a,  
+.ui-body-a, 
+.ui-body-a input, 
+.ui-body-a select, 
+.ui-body-a textarea, 
+.ui-body-a button,
+.ui-btn,
+.ui-btn-active, 
+.select-menus label { 
+  font-family: Corbel, Calibri, "Lucida Grande", AvenirNext-Medium, Optima, "Trebuchet Ms", "Droid Sans", "DejaVu Sans", sans-serif;  
+  font-weight: normal;
+} 
+.ui-header .ui-title, 
+.ui-footer .ui-title,
+.subfooter .ui-title {
+  color: #4cfeef;
+  text-align: left;
+  font-weight: normal;
+  /* text-shadow: 1px 2px  2px #000 ; */
+}  
+.header .page-title {
+  margin: 0;
+  padding: 0 .5em;
+  font-size: 1.5em;
+  color: #4cfeef;
+  text-shadow:0 0 .5em, 0 0 .3em;
+}
+.header .tagline {
+  font-size: 1em;
+  margin: 0 .25em 0 1.25em;
+}
+.heading, 
+.header .tagline {
+  color: #87FE4C; 
+}
+.heading {
+  font-size: 2em;
+  text-shadow: 1px 2px 3px #000;
+  margin-top: .5em;
+}
+.subheading,
+.bt-heading {
+  font-size: 1.5em;
+  margin-top: .5em;
+}
+.monospace {
+  font-family: "AmericanTypewriter-Condensed", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  word-spacing: -.2em;
+}
+.row { 
+  background-color: transparent;
+  background-image: -moz-linear-gradient(top,rgba(0,0,0,.5), transparent 10px, transparent 10px); background-image: -o-linear-gradient(top,rgba(0,0,0,.5), transparent 10px, transparent 10px); background-image: -webkit-linear-gradient(top,rgba(0,0,0,.5), transparent 10px, transparent 10px);	background-image: linear-gradient(top,rgba(0,0,0,.5), transparent 10px, transparent 10px);
+}
+.subfooter {
+  padding-bottom: 1em;
+}
+
+.subfooter li {
+  margin-left: -.5em;
+}
+.subfooter a {
+  display: block;
+  padding: .25em .5em;
+}
+.select-menus label { 
+  color: #99FEF6;
+}
+p,
+dl {
+  padding: .5em 0;
+  margin: 0;
+}
+
+h3 + p {
+  padding-top: 0;
+}
+dt,
+dd {
+  display: block; 
+}
+dt:after {
+  content: ":";
+}
+
+dd:before {
+  content: "~ ";
+}
+
+#content-display h3 { 
+  font-weight: normal;
+}
+.negative { 
+  background: #444; color: #fff; 
+}
+.positive { 
+  background: #fff; color: #222;
+}
+
+/* font scale select options */
+.xx-small {
+  font-size: xx-small;
+}
+.x-small {
+  font-size: x-small;
+}
+.small {
+  font-size: small;
+}
+.medium {
+  font-size: inherit; 
+}
+.large {
+  font-size: large;
+}
+.x-large {
+  font-size: x-large;
+}
+.xx-large {
+  font-size: xx-large;
+}
+
+.ui-selectmenu .ui-header .ui-title {
+  margin: 0.5em .60em 0;
+  font-size: 1.5em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.uppercase { text-transform: uppercase; 
+}
+::-moz-selection {
+  background: #00accb;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #00accb;
+  color: #fff;
+  text-shadow: none;
+}
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+.clear,
+.cf:after {
+  clear: both;
+}
+.align-right {
+  text-align: right;
+}
+
+/* footer */
+.content-info {
+  overflow: hidden;
+}
+.ui-footer,
+.content-info,
+.content-info-item {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.content-info-item,
+.content-info-link { 
+  /* float: left;  */
+  display: block;
+}
+.subfooter a,
+.content-info-link { 
+  color: #4cfeef;
+}
+
+.content-info .content-info-link { 
+  text-decoration: none;
+  width: 98%;
+  padding: 1em 0 1em 2%;
+  /* outline: 1px dotted white; */
+}
+.content-info .content-info-link:hover { 
+  background-color: transparent;
+} 
+.tagline em,
+.footer .content-info .content-info-resource {
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box {
+  border-top: 3px dashed #73D8F4;
+  margin: 1em 0;
+  padding: 1em 0;
+}
+
+
