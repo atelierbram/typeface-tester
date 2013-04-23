@@ -1,4 +1,6 @@
 $(document).bind("pageinit", function() {
+  // add class to ul of typeface-menu
+  $("#typeface-menu") .addClass("tf-menu");
   // Typeface select menu
   $("#typeface-menu [data-option-index='1'] .ui-link-inherit").click(function () { 
     $("#content-display").removeClass().addClass("AcademyEngravedLetPlain");
