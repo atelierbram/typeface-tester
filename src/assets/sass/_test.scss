@@ -1,0 +1,28 @@
+* { outline: 1px dotted salmon; }
+
+.ui-bar-f {
+  border: 1px solid #333;
+  // border-bottom-color: #333;
+  // background-image: linear-gradient(to bottom, #555, #333);
+}
+a,
+a:link,
+.ui-link-inherit {
+  text-decoration: none;
+}
+.ui-bar-f .ui-link-inherit {
+  color: #fff;
+}
+.ui-bar-f a.ui-link {
+  color: #4cfeef;
+}
+.ui-bar-f a.ui-link:visited {
+  color: #4cfeef;
+}
+.ui-bar-f a.ui-link:hover {
+  color: #4cfeef;
+}
+.ui-bar-f a.ui-link:active {
+  color: #4cfeef;
+}
+
