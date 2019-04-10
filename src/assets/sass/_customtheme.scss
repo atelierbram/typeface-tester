@@ -103,19 +103,9 @@ a, a:link, .ui-btn {
   color: #3e3e3e;
 }
 /*! purgecss ignore */
-.ui-bar-h a.ui-link {
-  color: #4cfeef;
-}
-/*! purgecss ignore */
-.ui-bar-h a.ui-link:visited {
-  color: #4cfeef;
-}
-/*! purgecss ignore */
+.ui-bar-h a.ui-link,
+.ui-bar-h a.ui-link:active,
 .ui-bar-h a.ui-link:hover {
-  color: #4cfeef;
-}
-/*! purgecss ignore */
-.ui-bar-h a.ui-link:active {
   color: #4cfeef;
 }
 /*! purgecss ignore */
