@@ -4,7 +4,7 @@
   "description": "System Font Viewer for iOS devices",
   "main": "Gruntfile.js",
   "devDependencies": {
-    "autoprefixer": "*",
+    "autoprefixer": "^9.7.3",
     "cssnano": "*",
     "grunt": "*",
     "grunt-contrib-clean": "*",
@@ -15,9 +15,9 @@
     "grunt-contrib-watch": "*",
     "grunt-postcss": "*",
     "grunt-purgecss": "*",
-    "grunt-sass": "*",
-    "load-grunt-tasks": "*",
-    "node-sass": "*"
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^4.13.0"
   },
   "scripts": {
     "update:packages": "node ../../../js/snippets/npm-wipe-package-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
