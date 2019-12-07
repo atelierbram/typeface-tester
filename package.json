@@ -1,1 +1,45 @@
-{"name":"typeface-tester","version":"1.0.1","description":"System Font Viewer for iOS devices","main":"Gruntfile.js","devDependencies":{"autoprefixer":"*","cssnano":"*","grunt":"*","grunt-contrib-clean":"*","grunt-contrib-concat":"*","grunt-contrib-copy":"*","grunt-contrib-htmlmin":"*","grunt-contrib-uglify":"*","grunt-contrib-watch":"*","grunt-postcss":"*","grunt-purgecss":"*","grunt-sass":"*","load-grunt-tasks":"*","node-sass":"*"},"scripts":{"update:packages":"node ../../../js/snippets/npm-wipe-package-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"},"browserslist":["defaults"],"repository":{"type":"git","url":"git+https://github.com/atelierbram/typeface-tester.git"},"keywords":["typography","fonts","system-fonts","iOS","iOS-fonts"],"author":"Atelier Bram de Haan","license":"MIT","bugs":{"url":"https://github.com/atelierbram/typeface-tester/issues"},"homepage":"https://github.com/atelierbram/typeface-tester#readme"}
+{
+  "name": "typeface-tester",
+  "version": "1.0.1",
+  "description": "System Font Viewer for iOS devices",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "cssnano": "*",
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-htmlmin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-postcss": "*",
+    "grunt-purgecss": "*",
+    "grunt-sass": "*",
+    "load-grunt-tasks": "*",
+    "node-sass": "*"
+  },
+  "scripts": {
+    "update:packages": "node ../../../js/snippets/npm-wipe-package-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atelierbram/typeface-tester.git"
+  },
+  "keywords": [
+    "typography",
+    "fonts",
+    "system-fonts",
+    "iOS",
+    "iOS-fonts"
+  ],
+  "author": "Atelier Bram de Haan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atelierbram/typeface-tester/issues"
+  },
+  "homepage": "https://github.com/atelierbram/typeface-tester#readme"
+}
